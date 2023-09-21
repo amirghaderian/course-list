@@ -1,11 +1,14 @@
 import "./App.css";
 import CourseList from "./components/CourseList";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <h1>My Courses</h1>
+    <Header/>
       <CourseList/>
+      <Footer/>
     </>
   );
 };
